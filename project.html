@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="project.css">
+    <title>Hotel</title>
+</head>
+
+<body>
+
+    <header>
+        <a href="#" class="logo">Creativity</a>
+        <nav class="navegation">
+            <a href="#Rooms">Rooms</a>
+            <a href="#services">Services</a>
+            <a href="#Contact">Contact US</a>
+            <button class="button" id="form-open">Login</button>
+        </nav>
+    </header>
+
+
+
+    <!-- Home -->
+    <section class="home">
+        <div class="form_container">
+            <i class="fa-solid fa-xmark form_close"></i>
+
+            <!-- Login From -->
+            <div class="form login_form">
+                <form action="#">
+                    <h2>Login</h2>
+                    <div class="input_box">
+                        <input type="email" placeholder="Enter your email" required />
+                        <i class="fa-solid fa-envelope email"></i>
+
+                    </div>
+                    <div class="input_box">
+                        <input type="password" placeholder="Enter your password" required />
+                        <i class="fa-solid fa-lock password"></i>
+
+                        <i class="fa-regular fa-eye-slash pw_hide"></i>
+                    </div>
+                    <div class="option_field">
+                        <span class="checkbox">
+                            <input type="checkbox" id="check" />
+                            <label for="check">Remember me</label>
+                        </span>
+                        <a href="#" class="forgot_pw">Forgot password?</a>
+                    </div>
+                    <button class="button">Login Now</button>
+                    <div class="login_signup">Don't have an account? <a href="#" id="signup">Signup</a></div>
+                </form>
+            </div>
+            <!-- Signup From -->
+            <div class="form signup_form">
+                <form action="#">
+                    <h2>Signup</h2>
+                    <div class="input_box">
+                        <input type="email" placeholder="Enter your email" required />
+                        <i class="fa-solid fa-envelope email"></i>
+                    </div>
+                    <div class="input_box">
+                        <input type="password" placeholder="Create password" required />
+                        <i class="fa-solid fa-lock password"></i>
+                        <i class="fa-regular fa-eye-slash pw_hide"></i>
+                    </div>
+                    <div class="input_box">
+                        <input type="password" placeholder="Confirm password" required />
+                        <i class="fa-solid fa-lock password"></i>
+                        <i class="fa-regular fa-eye-slash pw_hide"></i>
+                    </div>
+                    <button class="button">Signup Now</button>
+                    <div class="login_signup">Already have an account? <a href="#" id="login">Login</a></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="Project_web.js"></script>
+
+
+    <section class="main">
+        <div>
+            <h2> Find your next stay here</h2>
+
+        </div>
+
+    </section>
+    <section class="main2">
+
+        <div class="main2-div1">
+            <img class="main-img1" src="p111.jpg" alt="">
+            <h2>ACCOMMODATIONS</h2>
+            <p class="main-desc1">
+                Indulge in the allure of spacious sophistication that only Harmony Suites can<br> offer. Our suites
+                redefine luxury, setting the stage for unforgettable memories and <br> timeless experiences. Elevate
+                your
+                stay, and let us weave a tapestry of opulence<br> around you. Secure your reservation now, and step into
+                a world where grandeur knows <br>no bounds. Our windows offer uninterrupted views of the city’s skyline
+                or breathtaking<br> landscapes, creating an ever-changing masterpiece that captivates your senses.
+
+            </p>
+        </div>
+    </section>
+    <section class="main3">
+
+        <div class="main3-div1">
+            <img class="main-img2"
+                src="333.jpg"
+                alt="">
+            <h2>MEETINGS & EVENTS</h2>
+            <p class="main-desc2">
+                Discover a haven for memorable events at our hotel, where modern <br>luxury meets impeccable
+                functionality. Our meticulously designed <br> meeting and event facilities offer a seamless fusion of
+                elegance and<br> practicality. From intimate gatherings to grand celebrations, our versatile <br> spaces
+                are
+                equipped with state-of-the-art amenities and supported by<br> a dedicated team. Elevate your event with
+                exquisite catering, advanced<br> technology, and a prime location that ensures both convenience <br>and
+                sophistication. Your extraordinary event begins here.
+
+            </p>
+        </div>
+    </section>
+
+
+    <section class="rooms" id="Rooms">
+        <h2 class="title-rooms"> Rooms</h2>
+
+        <div class="content1">
+            <div class="room">
+                <div class="photo">
+                    <img class="photo-rooms" src="room1.jpg" alt="">
+                </div>
+                <div class="info">
+                    <h3>Single Room</h3>
+                    <p>Cost : <del>$30</del> <span> $20</span> </p>
+                </div>
+                <div>
+                    <a href="Project_web_p2.html" target="_blank" class="Book-now">Book now</a>
+                </div>
+            </div>
+            <div class="room">
+                <div class="photo">
+                    <img class="photo-rooms" src="4caf153090626fc4fad3104647746f65.jpg" alt="">
+                </div>
+                <div class="info">
+                    <h3>Deluxe Room</h3>
+                    <p>Cost : <del>$50</del> <span> $35</span> </p>
+                </div>
+                <div>
+                    <a href="Project_web_p2.html" target="_blank" class="Book-now">Book now</a>
+                </div>
+
+            </div>
+            <div class="room">
+                <div class="photo">
+                    <img class="photo-rooms" src="room33.jpg" alt="">
+                </div>
+                <div class="info">
+                    <h3>Family Room</h3>
+                    <p>Cost : <del>$60</del> <span> $50</span> </p>
+                </div>
+                <div>
+                    <a href="Project_web_p2.html" target="_blank" class="Book-now">Book now</a>
+                </div>
+
+            </div>
+            <div class="room">
+                <div class="photo">
+                    <img class="photo-rooms" src="room44.jpg" alt="">
+                </div>
+                <div class="info">
+                    <h3>VIP Room</h3>
+                    <p>Cost : <del>$120</del> <span> $100</span> </p>
+                </div>
+                <div>
+                    <a href="Project_web_p2.html" target="_blank" class="Book-now">Book now</a>
+                </div>
+
+            </div>
+            <div class="room">
+                <div class="photo">
+                    <img class="photo-rooms" src="room5.jpg" alt="">
+                </div>
+                <div class="info">
+                    <h3>Executive Room</h3>
+                    <p>Cost : <del>$55</del> <span> $40</span> </p>
+                </div>
+                <div>
+                    <a href="Project_web_p2.html" target="_blank" class="Book-now">Book now</a>
+                </div>
+            </div>
+            <div class="room">
+                <div class="photo">
+                    <img class="photo-rooms" src="room6.jpg" alt="">
+                </div>
+                <div class="info">
+                    <h3>Smart Room</h3>
+                    <p>Cost : <del>$80</del> <span> $65</span> </p>
+                </div>
+                <div>
+                    <a href="Project_web_p2.html" target="_blank" class="Book-now">Book now</a>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <section id="services">
+        <div class="title-services">
+            <h2>Facilities & services</h2>
+        </div>
+        <div class="content2">
+            <div class="icon">
+                <i class="fa-sharp fa-solid fa-wifi"></i>
+                <span class="title-icon">Wi-Fi</span>
+                <span class="dsc">WiFi calling allows you to call or text from anywhere using a WiFi connection.
+                </span>
+            </div>
+            <div class="icon">
+                <i class="fa-solid fa-car"></i>
+                <span class="title-icon">Parking</span>
+                <span class="dsc">
+                    Car parking is essential to car-based travel. Cars are typically stationary around per cent of
+                    the time.
+                </span>
+            </div>
+            <div class="icon">
+                <i class="fa-sharp fa-solid fa-water-ladder"></i>
+                <span class="title-icon">Pool</span>
+                <span class="dsc">A swimming pool, swimming bath, wading pool, paddling pool, or simply pool.</span>
+            </div>
+            <div class="icon">
+                <i class="fa-solid fa-dumbbell"></i>
+                <span class="title-icon">Fitness</span>
+                <span class="dsc">We have training halls of the highest level and good trainers, and the training halls
+                    have all the sports equipment</span>
+            </div>
+            <div class="icon">
+                <i class="fa-solid fa-utensils"></i>
+                <span class="title-icon">Restaurant </span>
+                <span class="dsc">We have the best chefs in the world, the best types of food, and all the food is
+                    fresh</span>
+            </div>
+            <div class="icon">
+                <i class="fa-solid fa-gamepad"></i>
+                <span class="title-icon">Games </span>
+                <span class="dsc">We have the best and latest games, and there are places for video games and
+                    billiards</span>
+            </div>
+            <div class="icon">
+                <i class="fa-solid fa-lock"></i>
+                <span class="title-icon">Security </span>
+                <span class="dsc">We have the latest security systems and surveillance cameras, and there are security
+                    personnel trained to the highest level.</span>
+            </div>
+            <div class="icon">
+                <i class="fa-solid fa-briefcase-medical"></i>
+                <span class="title-icon">First Aid </span>
+                <span class="dsc">The hotel is equipped with all medical equipment, and there is an ambulance to
+                    transport patients to the hospital</span>
+            </div>
+
+
+        </div>
+
+
+    </section>
+
+
+    <footer class="footer" id="Contact">
+        <p>Contact US</p>
+        <div class="footer-icon">
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            <a href=""><i class="fa-regular fa-envelope"></i></a>
+            <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-whatsapp"></i></i></a>
+        </div>
+
+
+
+    </footer>
+
+</body>
+
+</html>
